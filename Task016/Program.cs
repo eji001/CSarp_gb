@@ -9,6 +9,8 @@
 int num = Convert.ToInt32(Console.ReadLine());
 
 int res = num % 1000 / 100;
-if (res == 0) Console.WriteLine("третьей цифры нет");
+
+if(num <100) Console.WriteLine("третьей цифры нет");
 else Console.WriteLine(res);
+
 
