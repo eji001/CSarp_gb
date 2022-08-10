@@ -8,9 +8,11 @@
 
 int num = Convert.ToInt32(Console.ReadLine());
 
-int res = num % 1000 / 100;
-
-if(num <100) Console.WriteLine("третьей цифры нет");
-else Console.WriteLine(res);
-
+if (num < 100) Console.WriteLine(" третьей цифры нет");
+else
+{
+    while (num > 999) num /= 10;
+    int res = num % 10;
+    Console.WriteLine(res);
+}
 
