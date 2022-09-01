@@ -3,7 +3,6 @@
 
 //??
 
-
 int[,,] CreateMatrixX3(int iLength, int jLength, int kLength)
 {
     int number = 11;
