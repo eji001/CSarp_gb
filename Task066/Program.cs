@@ -4,6 +4,7 @@
 // 453 -> 12
 // 45 -> 9
 
+
 int SumOfDigits(int number)
 {
     if (number == 0)
